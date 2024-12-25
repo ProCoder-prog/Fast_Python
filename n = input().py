@@ -220,7 +220,5 @@ for module in modules:
         exec(f'from {module} import *')
     except ImportError:
         pass
-
-#all standard python library
-
+#It won't bug if there's a wrong modules ,that code from line 190 to line 222
 #Your turn to code!
